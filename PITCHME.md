@@ -35,10 +35,10 @@ img {
 
 ## About me
 
- - At CERN since 2007
- - Project and Service Manager (@CERN) of Indico (since 2014)
-   - Previously: technical leadership
- -
+- At CERN since 2007
+- Project and Service Manager (@CERN) of Indico (since 2014)
+  - Previously: technical leadership
+- Also: Product Management, UI/UX design, communication
 
 ---
 
@@ -113,11 +113,15 @@ img {
 
 ---
 
+![](assets/wp_mgmt_overview.svg)
+
+---
+
 ## Strategy
 
 ### Principles of Project Management
 
-- Iterative rather than sequential (Agile) ↺
+- Iterative rather than sequential ("Agile") ↺
 - Horizontal communication ⇆
 - Focused on concrete and working deliverables ◎
 - Deliverables should be useful ⚑
@@ -219,7 +223,7 @@ img:not(last-child) {
 
 ## Staffing
 
-* CERN (24 PM)
+- CERN (24 PM)
   - Anna (taking over from Jimmy), Kuba, Pedro
-* DTU (6 PM)
+- DTU (6 PM)
   - Frederik
