@@ -221,7 +221,7 @@ img:not(last-child) {
 
 ---
 
-## Staffing
+## Manpower
 
 - CERN (24 PM)
   - Anna (taking over from Jimmy), Kuba, Pedro
