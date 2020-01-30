@@ -173,7 +173,7 @@ img {
 
 - Communication/Collaboration tools
 - Organization of meetings (Kick-off, StC, General Assembly, EAB...)
-- Website *(?)*
+- ~~Website~~ (WP5)
 - **Deliverables**: Website and Minutes (**D1.1** + **D1.2**)
 
 <!-- _footer: 'CC BY-NC-SA 4.0 • Photo: Public Domain' -->
@@ -203,7 +203,7 @@ img:not(last-child) {
 ## Deliverables
 
 - **D1.1**: Agendas + minutes (all meetings) (T1.3)
-- **D1.2**: Project Website *(?)*
+- ~~**D1.2**: Project Website~~ (WP5)
 - **D1.3**: Following plans (+ updates) (T1.2):
   - **Quality Assurance**
   - **IPR**
@@ -226,4 +226,8 @@ img:not(last-child) {
 - CERN (24 PM)
   - Anna (taking over from Jimmy), Kuba, Pedro
 - DTU (6 PM)
-  - Frederik
+  - Frederik, Sanne, Helle
+
+---
+
+# Thanks!
