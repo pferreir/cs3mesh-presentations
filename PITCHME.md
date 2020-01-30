@@ -216,7 +216,7 @@ img:not(last-child) {
 ## Immediate Targets
 
 - **Tomorrow**⚠️: D1.1 (agendas + minutes)
-- **February**: D1.2
+- **February**: ~~D1.2~~
 - **March**: D1.3 & D1.4
 
 ---
