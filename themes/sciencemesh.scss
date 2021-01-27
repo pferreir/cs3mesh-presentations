@@ -1,0 +1,37 @@
+/* @theme sciencemesh */
+
+@import-theme 'uncover';
+
+$blue: #00a4e4;
+$gray: #888;
+
+h2 {
+    color: $blue;
+}
+
+h3 {
+    color: $gray;
+}
+
+em {
+    color: $gray;
+    font-weight: normal;
+}
+section {
+    font-size: 1.7em;
+    font-family: 'Source Sans Pro';
+}
+
+section.title-slide {
+    h2 {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    p {
+        text-align: center;
+    }
+    img {
+        vertical-align: middle;
+    }
+}

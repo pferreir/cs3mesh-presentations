@@ -1,233 +1,199 @@
 ---
 marp: true
-title: CS3MESH4EOSC - WP1
-description: Planning of WP1
-theme: cs3mesh
+title: ScienceMesh in a nutshell
+description: ScienceMesh in a nutshell
+theme: sciencemesh
 paginate: true
 _paginate: false
-footer: CC BY-NC-SA 4.0 (Logos excluded)
+footer: CC BY 4.0
 ---
-<style>
-    section.wp-slide h3 {
-        font-size: 0.9em;
-        font-style: italic;
-    }
-</style>
 
-![height:120px](assets/cs3.png)![height:250px](assets/eosc.jpg)
-*CS3MESH4EOSC - Work Package 1*
+<!-- _class: title-slide -->
+
+![height:180px](assets/sciencemesh.svg)
+## In a nutshell
 
 ### Pedro Ferreira (CERN)
 
-<style scoped>
-h3 {
-    color: #aaa;
-    font-size: 0.8em;
-    font-weight: normal;
-}
-img {
-    vertical-align: middle;
-}
-</style>
+---
+
+## Why?
+
+![height:400px](assets/slide.png)
+
+[Link to talk](https://indico.cern.ch/event/970232/contributions/4158375/)
+
+---
+
+## The Idea
+
+![bg right 50%](assets/sciencemesh-alt.svg)
+
+ * **Decentralized** mesh of EFSS nodes
+ * Based on **Open Standards** and **Open Source**
+ * **Federated** environment for collaborative research
+ * **Application platform** for distributed collaboration
+
+---
+
+## One year ago...
+
+![bg right horizontal 50%](assets/cs3mesh4eosc.png)
+![bg right vertical 75%](assets/kickoff.png)
+
+ * 30-31 January 2020 - **Copenhagen** 🇩🇰
+ * Started with 12 partners
+   - **Trust-IT** joined in the meantime!
+ * Started engaging with the community
+   - "Meet the CS3Mesh"
+   - nice to see you again! 👋🏻
+ * **Very busy year** for the Project!
+---
+
+# 2020
+*(and why not everything was bad)*
+
+---
+
+![width:800px](assets/layer_cake.png)
+
+---
+## Federation
+
+![bg vertical cover right:55%](assets/dashboard.png)
+
+* Established Roadmap for Trust
+* Federated Identity
+* Registry (GOCDB, Mentix)
+* Monitoring (Prometheus, Grafana)
+* Security
+* **Up and running mid-2021!**
+
+---
+## IOP
+<!-- _footer: 'Photo by Riki Risnandar from [Pexels](https://www.pexels.com/photo/3-x-3-rubiks-cube-3993855/)' -->
+
+![bg vertical cover left:50%](assets/puzzle.jpg)
+
+* Established protocols and APIs
+  - OCM
+* Packaged distribution
+* Set up at Partners (8 sites)
+* Companion application for ownCloud and Nextcloud
+* **You can already join the mesh!**
+
+---
+<!-- _footer: 'Photo by Markus Spiske from [Pexels](https://www.pexels.com/photo/creative-dark-internet-designer-6190327/)' -->
+
+![bg vertical cover right:60%](assets/code.jpg)
+## Applications
+
+---
+<!-- _footer: 'Logos are property of the respective projects' -->
+
+![bg width: 60%](assets/apps.png)
+
+---
+<!-- _footer: 'Logos are property of the respective projects' -->
+
+![bg width: 60%](assets/apps_grouped.png)
+
+---
+<!-- _footer: '' -->
+
+![width:800px](assets/davide.png)
+
+Davide De Marchi -  [JupyterLab for Earth Observation applications with HTCondor scaling and Voilà dashboarding](https://indico.cern.ch/event/970232/contributions/4158372/)
+
+---
+<!-- _footer: '' -->
+
+![width:800px](assets/marcin.png)
+
+Marcin Sieprawski -  [Science Mesh beyond science -- perspectives for adoption in a wider business context.](https://indico.cern.ch/event/970232/contributions/4158378/)
+
+---
+<!-- _footer: '' -->
+
+![width:700px](assets/giuseppe.png)
+
+Giuseppe Lo Presti -  [CodiMD in CERNBox: leveraging the WOPI protocol to provide collaborative markdown editing](https://indico.cern.ch/event/970232/contributions/4158365/)
+
+---
+<!-- _footer: '' -->
+
+![width:700px](assets/mario.png)
+
+Mario Lassnig -  [SWAN, Rucio, and Jupyter](https://indico.cern.ch/event/970232/contributions/4157927/)
+
+---
+<!-- _footer: '' -->
+
+![bg vertical cover right:50%](assets/cogs.jpg)
+
+## Synergies
+
+ * Conversations with several vendors about new features and integrations
+   - e.g. sponsoring developments in **Rclone**
+ * Open Data partnership involving UTS, PARADISEC (AU), Zenodo
+   - Based on WWU's **Sciebo RDS** and UTS's **Describo**
+
+---
+<!-- _footer: '' -->
+
+![width:700px](assets/peter.png)
+
+Peter Heiss, Lennart Hofeditz -  [Progress of Sciebo Research Data Services](https://indico.cern.ch/event/970232/contributions/4157920/)
+
+---
+<!-- _footer: '' -->
+
+![width:700px](assets/marco.png)
+
+Marco La Rosa, Peter Sefton -  [Describo and RO-Crate - the FAIR data research helpers](https://indico.cern.ch/event/970232/contributions/4158369/)
 
 
 ---
 
-## About me
-
-- At CERN since 2007
-- Project and Service Manager (@CERN) of Indico (since 2014)
-  - Previously: technical leadership
-- Also: Product Management, UI/UX design, communication
+**You app could be the next one!**
 
 ---
+## Cubbit
+<!-- _footer: '' -->
 
-## WP1
-### Project Management
+![bg right cover vertical](assets/cubbit.webp)
 
----
+ * CS3Mesh on a physical device!
+ * Integration with CS3APIs/IOP
 
-## Partners
 
-![](assets/cern.svg)![width:100px](assets/dtu.svg)
-
-<style scoped>
-    p {
-        margin: 0 auto 0 auto;
-        display: flex;
-        justify-content: space-between;
-        width: 30%;
-    }
-</style>
+*Gianluca Granero - [Cubbit Hive: the private distributed cloud](https://indico.cern.ch/event/970232/contributions/4158359)*
 
 ---
+## Communications
+<!-- _footer: '© Copyright 2020-2021 CS3MESH4EOSC Project Partners' -->
 
-## Objectives (1/2)
+![bg left:45% horizontal](assets/project_site.png)
+![bg left vertical](assets/mesh_site.png)
 
-- Ensuring proper implementation of the Work Plan and achievement of the CS3MESH4EOSC objectives
-- Efficient organisation and day-to-day management of the project
-- Monitoring and ensuring on-time delivery of technical, administrative and financial reports
-
----
-
-## Objectives (2/2)
-
-- Preparing and maintaining the Data Management Plan
-- Ensuring proper interaction among collaborating partners & managing legal issues
-- Networking and partnership with stakeholders, industries and other projects
-- Oversee measures to facilitate gender equality
+ * **Project** [website](https://cs3mesh4eosc.eu) and branding
+   - Newsletters, [@cs3org](https://twitter.com/cs3org) and others
+ * **ScienceMesh** [website](https://sciencemesh.io) and branding
+   - [Documentation](https://developer.sciencemesh.io) on how to join
+ * **Events** such as this one!
 
 ---
+## Roadmap
 
-## Project Tasks
+![bg left 50%](assets/sciencemesh-proto.png)
 
----
-
-![bg right](assets/control.jpg)
-
-## T1.1
-
-<!-- _class: wp-slide -->
-
-### Scientific, financial and administrative project management
-
-*CERN + DTU*
-
-- Monitoring progress
-- Strategy
-- Communication with EC
-- **Deliverables**: Periodic Reports to EC
-
-<!-- _footer: 'CC BY-NC-SA 4.0 • Photo: © 1963-2020 CERN' -->
+ 1. **mid-2021** - Consolidation of Proof of Concept (user sharing)
+ 2. **early 2022** - Second prototype - sharing with groups of users
+ 3. **late 2022** - Production infrastructure, applications fully integrated
 
 ---
+## Conclusion
 
-![bg right](assets/monitoring.jpg)
-
-## Monitoring Progress
-
-- Continuous process 🗓
-- As direct as possible ⇄
-
-<!-- _footer: 'CC BY-NC-SA 4.0 • Photo: © 1961-2020 CERN' -->
-
----
-
-![](assets/wp_mgmt_overview.svg)
-
----
-
-## Strategy
-
-### Principles of Project Management
-
-- Iterative rather than sequential ("Agile") ↺
-- Horizontal communication ⇆
-- Focused on concrete and working deliverables ◎
-- Deliverables should be useful ⚑
-
----
-
-![bg right](assets/disaster.jpg)
-
-## T1.2
-
-<!-- _class: wp-slide -->
-
-### Legal issues coordination and Project Risk Management.
-
-*CERN*
-
-- Identifying legal issues
-- Taking mitigation steps
-- **Deliverables**: Risk Assessment Plan, IPR Plan, DMP, QAP (**D1.3** + **D1.4**)
-
-<!-- _footer: 'CC BY-NC-SA 4.0 • Photo: © 1964-2020 CERN' -->
-
----
-
-## Legal Issues
-
-- Signed agreement
-- Data Privacy
-
----
-
-## Risks
-
-- Underestimating effort
-- Mismatch w/ user expectations
-- No commercial value
-- EFSS providers ceasing activity
-
----
-
-![bg right 180%](assets/telephone.jpg)
-
-## T1.3
-
-<!-- _class: wp-slide -->
-### Internal communication and organisation of meetings. (CERN)
-
-*CERN*
-
-- Communication/Collaboration tools
-- Organization of meetings (Kick-off, StC, General Assembly, EAB...)
-- ~~Website~~ (WP5)
-- **Deliverables**: Website and Minutes (**D1.1** + **D1.2**)
-
-<!-- _footer: 'CC BY-NC-SA 4.0 • Photo: Public Domain' -->
-
----
-
-## Tools (so far)
-
-- Communication (video-conferencing) → Zoom (DTU)
-- Meeting organization → Indico (CERN)
-- File sharing → CERNBox (CERN)
-- *Any other needs?*
-
-![width:150px](assets/zoom.svg)![width:200px](assets/indico.svg)![height:100px](assets/cernbox.svg)
-
-<style scoped>
-img {
-    vertical-align: middle;
-}
-img:not(last-child) {
-    margin-right: 40px;
-}
-</style>
-
----
-
-## Deliverables
-
-- **D1.1**: Agendas + minutes (all meetings) (T1.3)
-- ~~**D1.2**: Project Website~~ (WP5)
-- **D1.3**: Following plans (+ updates) (T1.2):
-  - **Quality Assurance**
-  - **IPR**
-  - **Risk Assessment**
-- **D1.4**: Data Management Plan + updates (T1.2)
-- **Progress Reports** for EU (T1.1)
-
----
-
-## Immediate Targets
-
-- **Tomorrow**⚠️: D1.1 (agendas + minutes)
-- **February**: ~~D1.2~~
-- **March**: D1.3 & D1.4
-
----
-
-## Manpower
-
-- CERN (24 PM)
-  - Anna (taking over from Jimmy), Kuba, Pedro
-- DTU (6 PM)
-  - Frederik, Sanne, Helle
-
----
-
-# Thanks!
+ * Lots of things for you to **discover**
+ * ... but it's also about **your** ideas
+ * **We hope you will like the workshop!**
