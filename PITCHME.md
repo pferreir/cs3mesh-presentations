@@ -155,7 +155,7 @@ Marco La Rosa, Peter Sefton -  [Describo and RO-Crate - the FAIR data research h
 
 ---
 
-**You app could be the next one!**
+**You app/service could be the next one!**
 
 ---
 ## Cubbit
