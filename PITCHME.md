@@ -1,23 +1,177 @@
 ---
 marp: true
-title: ScienceMesh in a nutshell
-description: ScienceMesh in a nutshell
+title: Summary of the CS3 2021 Conference
+description: Summary of the CS3 2021 Conference
 theme: sciencemesh
 paginate: true
 _paginate: false
-footer: CC BY 4.0
 ---
 
 <!-- _class: title-slide -->
 
-![height:180px](assets/sciencemesh.svg)
-## In a nutshell
+![height:180px](assets/cs3.png)
+## Workshop on Cloud Services for Synchronisation and Sharing
 
-### Pedro Ferreira (CERN)
+### A Summary
+
+#### by Pedro Ferreira and Jakub Moscicki
 
 ---
 
-## Why?
+## 7th edition!
+
+### 25 - 28 Jan 2021
+
+ * 2014 - Genève
+ * 2016 - Zürich
+ * 2017 - Amsterdam
+ * 2018 - Kraków
+ * 2019 - Roma
+ * 2020 - København
+ * 2021 - **Virtual**
+
+![bg right](assets/cities.png)
+
+---
+
+## What is it about?
+
+* **Sync & Share Cloud Storage, on-premises, FOSS**
+  * Sites and Services: *DESY Sync & Share, CERNBox, BNLBox...*
+  * Storage Technology: *EOS, GPFS, CEPH, dCache, ...*
+  * EFSS Companies: *ownCloud, Nextcloud, Seafile...*
+
+![bg right](./assets/about_1.png)
+
+---
+
+## What is it about?
+
+* **Integrated Services**
+  * Collaborative Tools: *OnlyOffice, Collabora, ...*
+  * Research Services: *Jupyter, Open Data Repositories, FAIR metadata ...*
+* **Projects and Federations**
+  * *European Open Science Cloud, ScienceMesh, HIFIS ...*
+
+![bg right](./assets/about_2.png)
+
+---
+
+## Attendance
+
+* **310+** registered participants (~150 at previous physical event)
+* **130+** different organizations
+  * Universities, International Organizations, NRENs, Computing Centers, SMEs, Enterprises, European Commission...
+* **25+ countries**
+  * Mostly Europe, but also Australia, Indonesia, China, Taiwan, Turkey, United States ...
+
+---
+
+![bg](./assets/cs3-prev.jpg)
+
+---
+
+<!-- _footer: Photo by Yaroslav Danylchenko from Pexels -->
+
+## 2021
+
+* Needed to go **full virtual** (Zoom)
+* Rely even more on **tools** we were using (e.g. Indico)
+* **Problem**: Conferences are **Social** events!
+  * How to spark conversation?
+
+![bg right](assets/pexels-yaroslav-danylchenko-4113084.jpg)
+
+---
+
+## Meet gather.town
+
+![bg right](./assets/gather.png)
+
+* **8-bit-RPG-like** interface 👾
+* Game-like **controls** (arrow keys)
+* "Line of sight" **video chats**
+
+---
+
+## Our virtual world
+
+![bg right](./assets/gather_2.jpg)
+
+* **Rooms** for session discussions
+* Exhibitor **booths**
+* Lots of **ad-hoc groups** formed
+* Usage remained **surprisingly high**!
+* **Very appreciated** by the participants!
+
+---
+
+## Schedule
+
+![width:1000px](./assets/timetable.png)
+
+---
+
+## Highlights
+
+---
+
+<style scoped>
+img {
+  box-shadow: 0px 0px 2px 2px #ddd;
+}
+</style>
+
+## On premise or in the cloud?
+### Campfire discussion
+
+CERN, Oracle, Ailleron, Cubbit
+
+![width:500px](assets/onprem.jpg)
+
+---
+## On premise EFSS Platforms
+### ownCloud, Nextcloud, Seafile
+
+![width:1100px](./assets/efss.jpg)
+
+---
+## EFSS Platforms
+### ownCloud, Nextcloud, Seafile
+
+![width:1100px](./assets/efss_2.jpg)
+
+---
+## Scalable Storage
+### Backend
+
+![width:1100px](./assets/storage.jpg)
+
+---
+## Scalable Storage
+### Frontend
+
+![width:1100px](./assets/storage_2.jpg)
+
+---
+## Online Collaboration
+### ownCloud, NextCloud, SeaTable
+
+![width:1100px](./assets/collab.jpg)
+
+---
+## Online Collaboration
+### OnlyOffice, Collabora, CERN
+
+![width:900px](./assets/collab_2.jpg)
+
+---
+
+![width:800px](assets/sciencemesh.svg)
+
+---
+
+## ScienceMesh
 
 ![height:400px](assets/slide.png)
 
@@ -36,164 +190,113 @@ footer: CC BY 4.0
 
 ---
 
-## One year ago...
-
-![bg right horizontal 50%](assets/cs3mesh4eosc.png)
-![bg right vertical 75%](assets/kickoff.png)
-
- * 30-31 January 2020 - **Copenhagen** 🇩🇰
- * Started with 12 partners
-   - **Trust-IT** joined in the meantime!
- * Started engaging with the community
-   - "Meet the CS3Mesh"
-   - nice to see you again! 👋🏻
- * **Very busy year** for the Project!
----
-
-# 2020
-*(and why not everything was bad)*
-
----
-
 ![width:800px](assets/layer_cake.png)
 
----
-## Federation
-
-![bg vertical cover right:55%](assets/dashboard.png)
-
-* Established Roadmap for Trust
-* Federated Identity
-* Registry (GOCDB, Mentix)
-* Monitoring (Prometheus, Grafana)
-* Security
-* **Up and running mid-2021!**
 
 ---
-## IOP
-<!-- _footer: 'Photo by Riki Risnandar from [Pexels](https://www.pexels.com/photo/3-x-3-rubiks-cube-3993855/)' -->
-
-![bg vertical cover left:50%](assets/puzzle.jpg)
-
-* Established protocols and APIs
-  - OCM
-* Packaged distribution
-* Set up at Partners (8 sites)
-* Companion application for ownCloud and Nextcloud
-* **You can already join the mesh!**
-
----
-<!-- _footer: 'Photo by Markus Spiske from [Pexels](https://www.pexels.com/photo/creative-dark-internet-designer-6190327/)' -->
-
-![bg vertical cover right:60%](assets/code.jpg)
-## Applications
-
----
-<!-- _footer: 'Logos are property of the respective projects' -->
-
 ![bg width: 60%](assets/apps.png)
 
 ---
-<!-- _footer: 'Logos are property of the respective projects' -->
-
 ![bg width: 60%](assets/apps_grouped.png)
 
 ---
-<!-- _footer: '' -->
-
 ![width:800px](assets/davide.png)
 
 Davide De Marchi -  [JupyterLab for Earth Observation applications with HTCondor scaling and Voilà dashboarding](https://indico.cern.ch/event/970232/contributions/4158372/)
 
 ---
-<!-- _footer: '' -->
 
+![width:1000px](assets/rdm.jpg)
+
+Marco La Rosa, Peter Sefton -  [Describo and RO-Crate - the FAIR data research helpers](https://indico.cern.ch/event/970232/contributions/4158369/)
+
+---
 ![width:800px](assets/marcin.png)
 
 Marcin Sieprawski -  [Science Mesh beyond science -- perspectives for adoption in a wider business context.](https://indico.cern.ch/event/970232/contributions/4158378/)
 
 ---
-<!-- _footer: '' -->
-
 ![width:700px](assets/giuseppe.png)
 
 Giuseppe Lo Presti -  [CodiMD in CERNBox: leveraging the WOPI protocol to provide collaborative markdown editing](https://indico.cern.ch/event/970232/contributions/4158365/)
 
 ---
-<!-- _footer: '' -->
-
 ![width:700px](assets/mario.png)
 
 Mario Lassnig -  [SWAN, Rucio, and Jupyter](https://indico.cern.ch/event/970232/contributions/4157927/)
 
 ---
-<!-- _footer: '' -->
 
-![bg vertical cover right:50%](assets/cogs.jpg)
+![width:400px](assets/sciencemesh.svg)
 
-## Synergies
+## Workshop
 
- * Conversations with several vendors about new features and integrations
-   - e.g. sponsoring developments in **Rclone**
- * Open Data partnership involving UTS, PARADISEC (AU), Zenodo
-   - Based on WWU's **Sciebo RDS** and UTS's **Describo**
-
----
-<!-- _footer: '' -->
-
-![width:700px](assets/peter.png)
-
-Peter Heiss, Lennart Hofeditz -  [Progress of Sciebo Research Data Services](https://indico.cern.ch/event/970232/contributions/4157920/)
-
----
-<!-- _footer: '' -->
-
-![width:700px](assets/marco.png)
-
-Marco La Rosa, Peter Sefton -  [Describo and RO-Crate - the FAIR data research helpers](https://indico.cern.ch/event/970232/contributions/4158369/)
-
+* ~100 participants
+* Presentations from the Work Packages
+* "The State of ScienceMesh"
 
 ---
 
-**You app/service could be the next one!**
+## ScienceMesh Workshop
+### Federation
+
+![width:700px](assets/monit.png)
 
 ---
-## Cubbit
-<!-- _footer: '' -->
 
-![bg right cover vertical](assets/cubbit.webp)
+<style scoped>
+img {
+  box-shadow: 0px 0px 2px 2px #ddd;
+}
+</style>
 
- * CS3Mesh on a physical device!
- * Integration with CS3APIs/IOP
+## ScienceMesh Workshop
+### Applications
 
-
-*Gianluca Granero - [Cubbit Hive: the private distributed cloud](https://indico.cern.ch/event/970232/contributions/4158359)*
-
----
-## Communications
-<!-- _footer: '© Copyright 2020-2021 CS3MESH4EOSC Project Partners' -->
-
-![bg left:45% horizontal](assets/project_site.png)
-![bg left vertical](assets/mesh_site.png)
-
- * **Project** [website](https://cs3mesh4eosc.eu) and branding
-   - Newsletters, [@cs3org](https://twitter.com/cs3org) and others
- * **ScienceMesh** [website](https://sciencemesh.io) and branding
-   - [Documentation](https://developer.sciencemesh.io) on how to join
- * **Events** such as this one!
+![width:700px](assets/jupylab.png)
 
 ---
-## Roadmap
 
-![bg left 50%](assets/sciencemesh-proto.png)
+<style scoped>
+img {
+  box-shadow: 0px 0px 2px 2px #ddd;
+}
+</style>
 
- 1. **mid-2021** - Consolidation of Proof of Concept (user sharing)
- 2. **early 2022** - Second prototype - sharing with groups of users
- 3. **late 2022** - Production infrastructure, applications fully integrated
+## ScienceMesh Workshop
+### Joining the Mesh
+
+![width:700px](assets/join_mesh.png)
 
 ---
-## Conclusion
+## ScienceMesh Workshop
+### Workflow Demo
 
- * Lots of things for you to **discover**
- * ... but it's also about **your** ideas
- * **We hope you will like the workshop!**
+![width:700px](assets/ytvideo.png)
+https://www.youtube.com/watch?v=I0PlqiUBT0I
+
+---
+<style scoped>
+img {
+  box-shadow: 0px 0px 2px 2px #ddd;
+}
+</style>
+
+## ScienceMesh Workshop
+### Developers
+
+![width:700px](assets/cs3meshdev.png)
+
+---
+
+![bg](./assets/organizers.jpg)
+
+---
+### It's all online!
+
+https://indico.cern.ch/event/970232/
+
+---
+
+## Thank you!
+### Questions?
