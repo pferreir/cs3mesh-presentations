@@ -1,7 +1,7 @@
 ---
 marp: true
-title: ScienceMesh in a nutshell
-description: ScienceMesh in a nutshell
+title: "ScienceMesh: An Interoperable Federation of EFFS services for European Open Science Cloud"
+description: "ScienceMesh: An Interoperable Federation of EFFS services for European Open Science Cloud"
 theme: sciencemesh
 paginate: true
 _paginate: false
@@ -11,51 +11,59 @@ footer: CC BY 4.0
 <!-- _class: title-slide -->
 
 ![height:180px](assets/sciencemesh.svg)
-## In a nutshell
+## An Interoperable Federation of EFFS services for European Open Science Cloud
 
 ### Pedro Ferreira (CERN)
 
 ---
 
-## Why?
-
-![height:400px](assets/slide.png)
-
-[Link to talk](https://indico.cern.ch/event/970232/contributions/4158375/)
-
----
-
 ## The Idea
 
-![bg right 50%](assets/sciencemesh-alt.svg)
+![bg right horizontal 70%](assets/sciencemesh.svg)
+![bg right vertical 50%](assets/cs3mesh4eosc.png)
 
  * **Decentralized** mesh of EFSS nodes
  * Based on **Open Standards** and **Open Source**
- * **Federated** environment for collaborative research
- * **Application platform** for distributed collaboration
-
----
-
-## One year ago...
-
-![bg right horizontal 50%](assets/cs3mesh4eosc.png)
-![bg right vertical 75%](assets/kickoff.png)
-
- * 30-31 January 2020 - **Copenhagen** 🇩🇰
- * Started with 12 partners
-   - **Trust-IT** joined in the meantime!
- * Started engaging with the community
-   - "Meet the CS3Mesh"
-   - nice to see you again! 👋🏻
- * **Very busy year** for the Project!
----
-
-# 2020
-*(and why not everything was bad)*
+ * **Interoperable Platform** to easily share and deploy applications and components
 
 ---
 
 ![width:800px](assets/layer_cake.png)
+
+---
+
+## Objectives
+
+![bg right 50%](assets/sciencemesh-alt.svg)
+
+ * **Application platform** for distributed collaboration
+ * **Federated** research space for Europe (and the world!)
+ * Leveraging the potential of the **CS3 Community**
+
+---
+
+## EFSS Integration
+
+### Objectives
+
+ * Platform-specific plugins;
+ * Implement "Invite workflow" from EFSS system;
+ * A User Interface which feels seamless;
+
+---
+
+## EFSS Integration
+
+![bg right 80%](assets/mockups-collab.png)
+
+* Nextcloud
+  - outsourced to PonderSource (alpha stage);
+  - UX and backend;
+* ownCloud
+  - OCIS - using REVA, still UX work to do;
+  - version 10 - backport by PonderSource (March 2022);
+* Seafile
+  - under discussion
 
 ---
 ## Federation
@@ -69,18 +77,6 @@ footer: CC BY 4.0
 * Security
 * **Up and running mid-2021!**
 
----
-## IOP
-<!-- _footer: 'Photo by Riki Risnandar from [Pexels](https://www.pexels.com/photo/3-x-3-rubiks-cube-3993855/)' -->
-
-![bg vertical cover left:50%](assets/puzzle.jpg)
-
-* Established protocols and APIs
-  - OCM
-* Packaged distribution
-* Set up at Partners (8 sites)
-* Companion application for ownCloud and Nextcloud
-* **You can already join the mesh!**
 
 ---
 <!-- _footer: 'Photo by Markus Spiske from [Pexels](https://www.pexels.com/photo/creative-dark-internet-designer-6190327/)' -->
@@ -91,42 +87,58 @@ footer: CC BY 4.0
 ---
 <!-- _footer: 'Logos are property of the respective projects' -->
 
-![bg width: 60%](assets/apps.png)
-
----
-<!-- _footer: 'Logos are property of the respective projects' -->
-
 ![bg width: 60%](assets/apps_grouped.png)
 
 ---
-<!-- _footer: '' -->
+<style scoped>
+  img {
+    width: 200px !important;
+    display: inline-block;
+  }
+</style>
+Data Science / Data Transfers
 
-![width:800px](assets/davide.png)
+![](assets/proto-data-science.svg) ![](assets/proto-data-transfers.svg)
+![](assets/proto-md-editor.svg) ![](assets/proto-sciebords.svg)
 
-Davide De Marchi -  [JupyterLab for Earth Observation applications with HTCondor scaling and Voilà dashboarding](https://indico.cern.ch/event/970232/contributions/4158372/)
-
----
-<!-- _footer: '' -->
-
-![width:800px](assets/marcin.png)
-
-Marcin Sieprawski -  [Science Mesh beyond science -- perspectives for adoption in a wider business context.](https://indico.cern.ch/event/970232/contributions/4158378/)
-
----
-<!-- _footer: '' -->
-
-![width:700px](assets/giuseppe.png)
-
-Giuseppe Lo Presti -  [CodiMD in CERNBox: leveraging the WOPI protocol to provide collaborative markdown editing](https://indico.cern.ch/event/970232/contributions/4158365/)
+Markdown Editor / ScieboRDS
 
 ---
-<!-- _footer: '' -->
 
-![width:700px](assets/mario.png)
+![bg left:30% contain](assets/proto-data-science.svg)
+# Data Science Environment
 
-Mario Lassnig -  [SWAN, Rucio, and Jupyter](https://indico.cern.ch/event/970232/contributions/4157927/)
+JupyterHub-based Notebook Editing
+
+![width:400px](assets/proto-data-science.png)
+
+https://github.com/sciencemesh/cs3api4lab
 
 ---
+
+![bg left:30% contain](assets/proto-sciebords.svg)
+# Open Data Workflow
+
+ScieboRDS + Describo Online
+
+![width:500px](assets/proto-sciebords.png)
+
+https://github.com/Sciebo-RDS/port-reva
+https://github.com/Arkisto-Platform/describo-online
+
+---
+
+![bg left:30% contain](assets/proto-md-editor.svg)
+# Markdown Editor
+
+CodiMD from you EFSS
+
+![width:500px](assets/proto-md-editor.png)
+
+https://github.com/cs3org/wopiserver/blob/master/src/bridge/readme.md
+
+---
+
 <!-- _footer: '' -->
 
 ![bg vertical cover right:50%](assets/cogs.jpg)
