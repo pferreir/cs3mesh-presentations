@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Summary of the CS3 2021 Conference
-description: Summary of the CS3 2021 Conference
+title: Summary of the CS3 2022 Conference
+description: Summary of the CS3 2022 Conference
 theme: sciencemesh
 paginate: true
 _paginate: false
@@ -14,13 +14,13 @@ _paginate: false
 
 ### A Summary
 
-#### by Pedro Ferreira and Jakub Moscicki
+#### by Pedro Ferreira
 
 ---
 
-## 7th edition!
+## 8th edition!
 
-### 25 - 28 Jan 2021
+### 24 - 27 Jan 2022
 
  * 2014 - Genève
  * 2016 - Zürich
@@ -29,6 +29,7 @@ _paginate: false
  * 2019 - Roma
  * 2020 - København
  * 2021 - **Virtual**
+*  2022 - **Virtual**
 
 ![bg right](assets/cities.png)
 
@@ -57,13 +58,24 @@ _paginate: false
 
 ---
 
+## What is it about?
+
+* New: **Decentralized Web and Storage**
+  * IPFS, Solid, ...
+  * web3, Fediverse...
+* **Thematic workshops**
+  * Interoperability protocols and APIs
+  * ScienceMesh
+
+![bg right](./assets/about_3.png)
+
+---
+
 ## Attendance
 
-* **310+** registered participants (~150 at previous physical event)
-* **130+** different organizations
+* **280+** registered participants (~310 previous year)
+* **~120** different organizations
   * Universities, International Organizations, NRENs, Computing Centers, SMEs, Enterprises, European Commission...
-* **25+ countries**
-  * Mostly Europe, but also Australia, Indonesia, China, Taiwan, Turkey, United States ...
 
 ---
 
@@ -73,18 +85,16 @@ _paginate: false
 
 <!-- _footer: Photo by Yaroslav Danylchenko from Pexels -->
 
-## 2021
+## 2021 - 2022
 
 * Needed to go **full virtual** (Zoom)
-* Rely even more on **tools** we were using (e.g. Indico)
-* **Problem**: Conferences are **Social** events!
-  * How to spark conversation?
+* Collaborative **tools** (Zoom, gather.town, Indico)
 
 ![bg right](assets/pexels-yaroslav-danylchenko-4113084.jpg)
 
 ---
 
-## Meet gather.town
+## gather.town
 
 ![bg right](./assets/gather.png)
 
@@ -94,21 +104,20 @@ _paginate: false
 
 ---
 
-## Our virtual world
+## This time
 
 ![bg right](./assets/gather_2.jpg)
 
-* **Rooms** for session discussions
-* Exhibitor **booths**
-* Lots of **ad-hoc groups** formed
-* Usage remained **surprisingly high**!
-* **Very appreciated** by the participants!
+* More or less same layout
+* Rooms for discussions + exhibitor **booths**
+* Usage visibly **lower** than previous year...
+* Maybe "Zoom fatigue"?
 
 ---
 
 ## Schedule
 
-![width:1000px](./assets/timetable.png)
+![width:1000px](assets/timetable.png)
 
 ---
 
@@ -122,179 +131,102 @@ img {
 }
 </style>
 
-## On premise or in the cloud?
-### Campfire discussion
+## Keynote: IPFS: Interplanetary filesystem
+### Yiannis Psaras (ProtocolLabs)
 
-CERN, Oracle, Ailleron, Cubbit
-
-![width:500px](assets/onprem.jpg)
+![width:800px](./assets/ipfs.png)
 
 ---
-## On premise EFSS Platforms
-### ownCloud, Nextcloud, Seafile
+## Keynote: SCION: Experiencing a new Internet Architecture
+### Adrian Perrig (ETHZ)
 
-![width:1100px](./assets/efss.jpg)
+![width:600px](./assets/scion.png)
+
+---
+## Keynote: Digital Market: a level playing field for EU Tech sector
+### Frank Karlitschek (Nextcloud)
+
+![width:600px](./assets/frank.png)
 
 ---
 ## EFSS Platforms
 ### ownCloud, Nextcloud, Seafile
 
-![width:1100px](./assets/efss_2.jpg)
+![height:200px](./assets/efss.png)
 
 ---
-## Scalable Storage
-### Backend
+## Federated Infrastructures and Clouds
 
-![width:1100px](./assets/storage.jpg)
-
----
-## Scalable Storage
-### Frontend
-
-![width:1100px](./assets/storage_2.jpg)
+![height:600px](./assets/federations.png)
 
 ---
-## Online Collaboration
-### ownCloud, NextCloud, SeaTable
+## Collaboration Products
 
-![width:1100px](./assets/collab.jpg)
-
----
-## Online Collaboration
-### OnlyOffice, Collabora, CERN
-
-![width:900px](./assets/collab_2.jpg)
+![height:600px](./assets/collab.png)
 
 ---
+## Scalable Storage Backends
+
+![height:600px](./assets/storage.png)
+
+---
+## User Stories
+
+![height:600px](./assets/user_stories.png)
+
+---
+# Thematic Sessions
+
+---
+
+## CS3 Org: Governance Campfire Discussion
+
+ * Governance of software products and standards - e.g. CS3APIs, REVA, OCM,...
+ * Request from industry for a more active role in governance.
+
+![height:300px](assets/klaas.png)
+
+---
+## OCM Workshop
+
+ * *OpenCloudMesh* - sharing of files between EFSS systems
+ * Extensions done in the context of ScienceMesh
+
+
+![height:300px](assets/milan.png)
+https://indico.cern.ch/event/1075584/contributions/4662258/
+
+---
+## ScienceMesh Workshop
 
 ![width:800px](assets/sciencemesh.svg)
 
 ---
-
-## ScienceMesh
-
-![height:400px](assets/slide.png)
-
-[Link to talk](https://indico.cern.ch/event/970232/contributions/4158375/)
-
----
-
-## The Idea
-
-![bg right 50%](assets/sciencemesh-alt.svg)
-
- * **Decentralized** mesh of EFSS nodes
- * Based on **Open Standards** and **Open Source**
- * **Federated** environment for collaborative research
- * **Application platform** for distributed collaboration
-
----
-
-![width:800px](assets/layer_cake.png)
-
-
----
-![bg width: 60%](assets/apps.png)
-
----
-![bg width: 60%](assets/apps_grouped.png)
-
----
-![width:800px](assets/davide.png)
-
-Davide De Marchi -  [JupyterLab for Earth Observation applications with HTCondor scaling and Voilà dashboarding](https://indico.cern.ch/event/970232/contributions/4158372/)
-
----
-
-![width:1000px](assets/rdm.jpg)
-
-Marco La Rosa, Peter Sefton -  [Describo and RO-Crate - the FAIR data research helpers](https://indico.cern.ch/event/970232/contributions/4158369/)
-
----
-![width:800px](assets/marcin.png)
-
-Marcin Sieprawski -  [Science Mesh beyond science -- perspectives for adoption in a wider business context.](https://indico.cern.ch/event/970232/contributions/4158378/)
-
----
-![width:700px](assets/giuseppe.png)
-
-Giuseppe Lo Presti -  [CodiMD in CERNBox: leveraging the WOPI protocol to provide collaborative markdown editing](https://indico.cern.ch/event/970232/contributions/4158365/)
-
----
-![width:700px](assets/mario.png)
-
-Mario Lassnig -  [SWAN, Rucio, and Jupyter](https://indico.cern.ch/event/970232/contributions/4157927/)
-
----
-
-![width:400px](assets/sciencemesh.svg)
-
-## Workshop
-
-* ~100 participants
-* Presentations from the Work Packages
-* "The State of ScienceMesh"
-
----
-
 ## ScienceMesh Workshop
-### Federation
 
-![width:700px](assets/monit.png)
+ * Two parts:
+   - "Status updates"
+   - Presentations by EOSC Task Forces and Research Initiatives representatives
 
----
+![bg right:30% fit](assets/sciencemesh-proto.png)
 
-<style scoped>
-img {
-  box-shadow: 0px 0px 2px 2px #ddd;
-}
-</style>
-
-## ScienceMesh Workshop
-### Applications
-
-![width:700px](assets/jupylab.png)
-
----
-
-<style scoped>
-img {
-  box-shadow: 0px 0px 2px 2px #ddd;
-}
-</style>
-
-## ScienceMesh Workshop
-### Joining the Mesh
-
-![width:700px](assets/join_mesh.png)
 
 ---
 ## ScienceMesh Workshop
-### Workflow Demo
 
-![width:700px](assets/ytvideo.png)
-https://www.youtube.com/watch?v=I0PlqiUBT0I
+ * Progress validated by community
+ * New synergies and prospective parters/communities
 
----
-<style scoped>
-img {
-  box-shadow: 0px 0px 2px 2px #ddd;
-}
-</style>
-
-## ScienceMesh Workshop
-### Developers
-
-![width:700px](assets/cs3meshdev.png)
+![bg right:30% fit](assets/eosc.png)
 
 ---
 
-![bg](./assets/organizers.jpg)
+![bg](./assets/organizers.png)
 
 ---
 ### It's all online!
 
-https://indico.cern.ch/event/970232/
+https://indico.cern.ch/e/cs3/2022
 
 ---
 
